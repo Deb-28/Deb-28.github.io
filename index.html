@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Deb-28</title>
+    </head>
+    <body>
+        <header>Welcome</header>
+        <div id="click_button" onclick="openNav()">&#9776;</div>
+        <div id="homediv">
+            Debaditya Dutta<br>
+            3<sup>RD</sup> Year | NIT Durgapur<br>
+            <a href="https://www.facebook.com/debaditya.dutta.568" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/debaditya-dutta-68732517a/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/Deb-28" target="_blank" class="fa fa-github"></a>
+        </div>
+        <div id="mynav" class="overlay">
+        <div id="mydiv">
+        <img src="Profile_pic.jpg" class="center">
+        </div>
+        <div id="newdiv">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="list">
+                <a href="About.html">About</a><br>
+                <a href="https://drive.google.com/file/d/1EQqRkwLZ7oRYSzdKEnn3drF8UBKRroMs/view?usp=sharing" target="_blank">Resume</a><br>
+                <a href="Contact.html">Contact</a><br>
+            </div>
+        </div>
+        </div>
+        
+        <footer>Debaditya Dutta&#169 2020</footer>
+
+        <script>
+            function openNav() {
+                document.getElementById("mynav").style.height = "100%";
+                document.getElementById("mydiv").style.width = "50%";
+                document.getElementById("newdiv").style.height = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("mynav").style.height = "0%";
+                document.getElementById("newdiv").style.height = "0%";
+                document.getElementById("mydiv").style.width = "0%";
+            }
+        </script>
+    </body>
+</html>

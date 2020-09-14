@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(46, 46, 46);
+}
+header{
+  width: 100%;
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 50px;
+  color:rgb(255, 153, 0);
+  background-color: rgb(0, 1, 59);
+}       
+#click_button{
+    position:absolute;
+    font-size:45px;
+    cursor:pointer;
+    left: 0;
+    top:57.4px;
+    background-color: grey;
+}      
+#click_button:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.603);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+#mydiv{
+    height:100%;
+    width:0;
+    position: relative;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.603);
+    overflow-x: hidden;
+    transition: 0.5s;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+#newdiv{ 
+    height:0;
+    width: 50%;
+    position: relative;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.603);
+    overflow-y:hidden;
+    transition: 0.5s;
+    float: right;
+}         
+.closebtn{
+    color: aquamarine;
+    float:right;
+    font-size: 60px;
+    margin-right: 5%;
+}   
+footer
+{
+    position:absolute;
+    width:100%;
+    bottom: 0;
+    left:0;
+    height:30px;
+    background-color:gold;
+    text-align:center;
+    font-size:20px;
+}
+.center{
+    position:absolute;
+    width:36%;
+    top:25%;
+    left:25%;
+    border:10px solid transparent;
+    padding:10px;
+    border-color: thistle;
+}
+.list{
+    position: absolute;
+    top:36%;
+    left:36%;
+    font-size: 40px;
+    color: goldenrod;
+}
+#homediv{
+    position:absolute;
+    width:100%;
+    font-size: 33px;
+    left: 0;   
+    top:50%;
+    height:58.4px;
+    text-align:center;
+    color:rgb(255, 196, 0)
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-facebook:hover{
+      background:grey;
+      color:white;
+      transition: 0.5s;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-linkedin:hover{
+    background:grey;
+    color:white;
+    transition: 0.5s;
+  }
+  .fa-github{
+    background:rgb(128, 16, 16);
+    color:white;
+  }
+  .fa-github:hover{
+    background:grey;
+    color:white;
+    transition: 0.5s;
+  }
